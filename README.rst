@@ -23,7 +23,7 @@ The SDK is available on `PyPI <https://pypi.python.org/pypi/sqlalchemy-qubole>`_
 
 ::
 
-    $ pip install sqlalchem-qubole
+    $ pip install sqlalchemy-qubole
 
 From source
 ~~~~~~~~~~~

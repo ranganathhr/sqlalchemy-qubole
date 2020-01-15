@@ -20,20 +20,27 @@ v = open(os.path.join(os.path.dirname(os.path.realpath(sys.argv[0])), 'sqlalchem
 version = '.'.join([str(v) for v in VERSION if v is not None])
 v.close()
 
-readme = os.path.join(os.path.dirname(__file__), 'README.md')
+readme = os.path.join(os.path.dirname(__file__), 'README.rst')
 
 setup(name='sqlalchemy_qubole',
       version=version,
       description="Qubole Presto/Hive for SQLAlchemy",
+      license='Apache License, Version 2.0',
+      url='https://www.qubole.com/',
+      download_url='https://www.qubole.com/',
+      author='Qubole',
+      author_email='support@qubole.com',
       long_description=open(readme).read(),
       classifiers=[
-          'Development Status :: 3 - Alpha',
+          'Development Status :: 4 - Beta',
           'Environment :: Console',
           'Intended Audience :: Developers',
+          'License :: OSI Approved :: Apache Software License',
+          'Operating System :: OS Independent',
           'Programming Language :: Python',
           'Programming Language :: Python :: 3',
           'Programming Language :: Python :: Implementation :: CPython',
-          'Topic :: Database :: Front-Ends',
+          'Topic :: Qubole :: Front-Ends',
       ],
       install_requires=[
           'sqlalchemy', 'future', 'pyhive', 'python-dateutil'
@@ -42,7 +49,6 @@ setup(name='sqlalchemy_qubole',
           "jdbc": ["JPype1==0.6.3", "JayDeBeApi"]
       },
       keywords='SQLAlchemy Qubole',
-      license='Apache',
       packages=find_packages(),
       include_package_data=True,
       entry_points={

@@ -65,9 +65,7 @@ Example of SQLAlchemy URIs to connect to Qubole
 
     qubole+hive://hive/hadoop2?endpoint=https://api.qubole.com;password=<API-TOKEN>
 
-* By default, qubole dialect points to presto.
-
-Default dialect:
+* By default, qubole dialect points to presto. Default dialect:
 
   ::
 

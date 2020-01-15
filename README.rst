@@ -48,6 +48,7 @@ From source
 
 
 Example of SQLAlchemy URIs to connect to Qubole
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Presto dialect:
 

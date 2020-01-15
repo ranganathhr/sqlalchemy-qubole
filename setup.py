@@ -40,7 +40,7 @@ setup(name='sqlalchemy_qubole',
           'Programming Language :: Python',
           'Programming Language :: Python :: 3',
           'Programming Language :: Python :: Implementation :: CPython',
-          'Topic :: Qubole :: Front-Ends',
+          'Topic :: Database :: Front-Ends',
       ],
       install_requires=[
           'sqlalchemy==1.3.12', 'future', 'pyhive==0.6.1', 'python-dateutil'

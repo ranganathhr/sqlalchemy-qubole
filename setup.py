@@ -43,10 +43,10 @@ setup(name='sqlalchemy_qubole',
           'Topic :: Qubole :: Front-Ends',
       ],
       install_requires=[
-          'sqlalchemy', 'future', 'pyhive', 'python-dateutil'
+          'sqlalchemy==1.3.12', 'future', 'pyhive==0.6.1', 'python-dateutil'
       ],
       extras_require={
-          "jdbc": ["JPype1==0.6.3", "JayDeBeApi"]
+          "jdbc": ["JPype1==0.6.3", "JayDeBeApi==1.1.1"]
       },
       keywords='SQLAlchemy Qubole',
       packages=find_packages(),

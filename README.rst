@@ -1,10 +1,6 @@
 SQLALchemy Qubole
 ==============================
 
-.. image:: https://travis-ci.org/qubole/qds-sdk-py.svg?branch=master
-    :target: https://travis-ci.org/qubole/qds-sdk-py
-    :alt: Build Status
-
 The SQLAlchemy is the Python SQL Toolkit and Object Relational Mapper. The primary purpose of this is to have a working dialect for Qubole Presto and Hive that can be used with Apache Superset. This uses our JDBC driver to connect to Qubole Presto/Hive.
 
 Installation

@@ -26,8 +26,7 @@ setup(name='sqlalchemy_qubole',
       version=version,
       description="Qubole Presto/Hive for SQLAlchemy",
       license='Apache License, Version 2.0',
-      url='https://www.qubole.com/',
-      download_url='https://www.qubole.com/',
+      url='https://docs.qubole.com/en/latest/connectivity-options/partner-integration/sqlalchemy/sqlalchemy-index.html',
       author='Qubole',
       author_email='support@qubole.com',
       long_description=open(readme).read(),
@@ -43,7 +42,7 @@ setup(name='sqlalchemy_qubole',
           'Topic :: Database :: Front-Ends',
       ],
       install_requires=[
-          'sqlalchemy==1.3.12', 'future', 'pyhive==0.6.1', 'python-dateutil'
+          'SQLAlchemy', 'future', 'pyhive==0.6.1', 'python-dateutil'
       ],
       extras_require={
           "jdbc": ["JPype1==0.6.3", "JayDeBeApi==1.1.1"]

@@ -1,4 +1,4 @@
-__version__ = '1.0.0'
+__version__ = '1.0.6'
 from sqlalchemy.dialects import registry
 
 registry.register("qubole", "sqlalchemy_qubole.prestodialect", "QubolePrestoDialect")

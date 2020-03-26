@@ -200,6 +200,7 @@ class QuboleHiveDialect(default.DefaultDialect):
     supports_unicode_binds = True
     returns_unicode_strings = True
     description_encoding = None
+    supports_multivalues_insert = True
     supports_native_boolean = True
     type_compiler = QuboleHiveTypeCompiler
 

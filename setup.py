@@ -18,7 +18,6 @@ from version import VERSION
 
 v = open(os.path.join(os.path.dirname(os.path.realpath(sys.argv[0])), 'sqlalchemy_qubole', '__init__.py'))
 version = '.'.join([str(v) for v in VERSION if v is not None])
-v.close()
 
 readme = os.path.join(os.path.dirname(__file__), 'README.rst')
 
